@@ -7,6 +7,7 @@ class ExampleViewModel(
 ) {
 
     fun method() {
+        useCase.invoke()
 
     }
 }

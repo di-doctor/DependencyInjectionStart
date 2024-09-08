@@ -8,6 +8,8 @@ class ExampleRepositoryImpl(
 ) : ExampleRepository {
 
     override fun method() {
+        localDataSource.method()
+        remoteDataSource.method()
 
     }
 }
